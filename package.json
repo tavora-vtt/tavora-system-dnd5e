@@ -1,0 +1,19 @@
+{
+  "name": "@tavora/system-dnd5e",
+  "version": "0.0.0",
+  "description": "D&D 5e (2024) game system for Tavora VTT",
+  "license": "MIT",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "check": "tsc -p tsconfig.json --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tavora-vtt/tavora-system-dnd5e.git"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
